@@ -1,0 +1,72 @@
+locus_tag	biopython_location_0based_halfopen	start_1based_inclusive	end_1based_inclusive	strand	product	plot_category	color_hex	plot_label
+BXVZTBMF_CDS_0001	[0:1209](-)	1	1209	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0002	[1210:1303](-)	1211	1303	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0003	[1442:1553](+)	1443	1553	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0004	[1635:1734](+)	1636	1734	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0005	[1712:2849](+)	1713	2849	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0006	[2865:2967](-)	2866	2967	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0007	[3071:3164](+)	3072	3164	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0008	[3208:3316](+)	3209	3316	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0009	[3378:3525](+)	3379	3525	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0010	[3526:3721](+)	3527	3721	1	DNA binding protein	Replication / DNA	#0072B2	
+BXVZTBMF_CDS_0011	[3823:4300](-)	3824	4300	-1	holin	Lysis	#D55E00	Holin
+BXVZTBMF_CDS_0012	[4319:5216](-)	4320	5216	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0013	[5457:6579](-)	5458	6579	-1	Reverse transcriptase	Other known	#999999	
+BXVZTBMF_CDS_0014	[6590:6725](-)	6591	6725	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0015	[6742:6856](-)	6743	6856	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0016	[6842:6965](-)	6843	6965	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0017	[6972:7713](-)	6973	7713	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0018	[7782:7914](-)	7783	7914	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0019	[7924:8407](+)	7925	8407	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0020	[8484:10350](-)	8485	10350	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0021	[10342:10504](-)	10343	10504	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0022	[10490:10703](-)	10491	10703	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0023	[10699:12946](-)	10700	12946	-1	virion structural protein	Other known	#999999	
+BXVZTBMF_CDS_0024	[12956:13706](-)	12957	13706	-1	distal tail protein Dit	Tail	#009E73	
+BXVZTBMF_CDS_0025	[13721:16340](-)	13722	16340	-1	tail length tape measure protein	Tail	#009E73	Tape measure
+BXVZTBMF_CDS_0026	[16339:16726](-)	16340	16726	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0027	[16728:17046](-)	16729	17046	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0028	[17153:17747](-)	17154	17747	-1	major tail protein	Tail	#009E73	Major tail
+BXVZTBMF_CDS_0029	[17758:18124](-)	17759	18124	-1	tail terminator	Other known	#999999	
+BXVZTBMF_CDS_0030	[18120:18417](-)	18121	18417	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0031	[18418:18769](-)	18419	18769	-1	head closure Hc1	Other known	#999999	
+BXVZTBMF_CDS_0032	[18758:19145](-)	18759	19145	-1	head-tail adaptor Ad1	Other known	#999999	
+BXVZTBMF_CDS_0033	[19160:20075](-)	19161	20075	-1	major head protein	Head / capsid	#56B4E9	Major head
+BXVZTBMF_CDS_0034	[20106:20568](-)	20107	20568	-1	head scaffolding protein	Head / capsid	#56B4E9	
+BXVZTBMF_CDS_0035	[20667:20964](-)	20668	20964	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0036	[20963:22079](-)	20964	22079	-1	head maturation protease	Head / capsid	#56B4E9	
+BXVZTBMF_CDS_0037	[21978:23472](-)	21979	23472	-1	portal protein	Head / capsid	#56B4E9	Portal
+BXVZTBMF_CDS_0038	[23468:24905](-)	23469	24905	-1	terminase large subunit	DNA packaging	#E69F00	TerL
+BXVZTBMF_CDS_0039	[24873:25317](-)	24874	25317	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0040	[25427:25547](-)	25428	25547	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0041	[25501:25870](-)	25502	25870	-1	HNH endonuclease	Replication / DNA	#0072B2	
+BXVZTBMF_CDS_0042	[25890:26013](-)	25891	26013	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0043	[26066:26216](-)	26067	26216	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0044	[26338:26437](-)	26339	26437	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0045	[26397:27099](-)	26398	27099	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0046	[27095:27389](-)	27096	27389	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0047	[27453:27558](-)	27454	27558	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0048	[27551:27818](+)	27552	27818	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0049	[27872:28211](-)	27873	28211	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0050	[28223:28889](-)	28224	28889	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0051	[28834:29347](-)	28835	29347	-1	single strand DNA binding protein	Replication / DNA	#0072B2	
+BXVZTBMF_CDS_0052	[29368:29590](-)	29369	29590	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0053	[29591:29792](-)	29592	29792	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0054	[29805:29985](-)	29806	29985	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0055	[29981:30182](-)	29982	30182	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0056	[30255:30432](+)	30256	30432	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0057	[30428:30614](-)	30429	30614	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0058	[30610:31132](-)	30611	31132	-1	excisionase and transcriptional regulator	Integration	#CC79A7	
+BXVZTBMF_CDS_0059	[31110:31467](-)	31111	31467	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0060	[31512:31701](-)	31513	31701	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0061	[31742:31919](-)	31743	31919	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0062	[31924:32257](-)	31925	32257	-1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0063	[32250:32514](-)	32251	32514	-1	transcriptional repressor	Other known	#999999	
+BXVZTBMF_CDS_0064	[32489:33089](+)	32490	33089	1	transcriptional repressor	Other known	#999999	
+BXVZTBMF_CDS_0065	[33099:33861](+)	33100	33861	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0066	[33861:33951](+)	33862	33951	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0067	[33960:34059](+)	33961	34059	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0068	[34180:34585](+)	34181	34585	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0069	[34590:34980](+)	34591	34980	1	metallo-protease	Other known	#999999	
+BXVZTBMF_CDS_0070	[35073:35997](+)	35074	35997	1	hypothetical protein	Hypothetical	#DDDDDD	
+BXVZTBMF_CDS_0071	[36070:37522](-)	36071	37522	-1	integrase	Integration	#CC79A7	Integrase

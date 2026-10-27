@@ -1,0 +1,9 @@
+{
+  "taxa": 19,
+  "trimmed_alignment_columns": 552,
+  "genome_length_bp": 37522,
+  "genome_gc_percent": 43.65971963114973,
+  "CDS": 71,
+  "GC_windows": 375,
+  "validation": "PASS: data checks only; tree inference is a separate workflow"
+}
