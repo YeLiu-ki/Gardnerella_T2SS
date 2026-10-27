@@ -1,4 +1,4 @@
-# Gv manuscript: reproducibility of panels E and F
+# T2SS: reproducibility of panels E and F
 
 This package contains the minimum direct inputs and derived plotting tables for the TerL cladogram (panel E) and the Gv142-2_P1 genome map (panel F). It also preserves the available inputs for rerunning the TerL analysis. 
 
