@@ -1,6 +1,6 @@
 # Gv manuscript: reproducibility of panels E and F
 
-This package contains the minimum direct inputs and derived plotting tables for the TerL cladogram (panel E) and the Gv142-2_P1 genome map (panel F). It also preserves the available inputs for rerunning the TerL analysis. This is a figure-level package, not the complete study or a raw-read-to-assembly pipeline.
+This package contains the minimum direct inputs and derived plotting tables for the TerL cladogram (panel E) and the Gv142-2_P1 genome map (panel F). It also preserves the available inputs for rerunning the TerL analysis. 
 
 ## Reproduce the figures
 
@@ -15,7 +15,7 @@ python scripts/reproduce.py
 
 The command validates the supplied data, exports tab-separated source-data tables, and redraws both panels. Outputs are written to `generated/figure_E/` and `generated/figure_F/`. TSV tables in `source_data/` can be imported into Excel (tab delimiter; identifiers and sequence columns as text). They are the canonical tabular source data; native Newick, FASTA and GenBank files are retained to avoid losing biological structure. No Excel software is required.
 
-Use `python scripts/export_source_data.py` for data extraction and validation only. The scripts locate the repository relative to their own file paths, so they may be invoked from another working directory.
+Use `python scripts/export_source_data.py` for data extraction and validation only. 
 
 ## Data and provenance
 
@@ -24,9 +24,6 @@ Use `python scripts/export_source_data.py` for data extraction and validation on
 | E | `data/figure_E/TerL_final.treefile` and label/category definitions in `scripts/plot_figure_E.py` | 19 original protein sequences, original headers, MAFFT alignment, trimmed alignment, IQ-TREE report and log |
 | F | `data/figure_F/Gv142-2_P1.gbk` | Complete nucleotide sequence and the 71 CDS annotations in the same GenBank file; a FASTA export is also provided |
 
-`provenance/source_manifest.json` maps every copied original to its path relative to the original Gv folder and records its SHA-256 hash. Original scripts are preserved unchanged in `provenance/original_scripts/`. They are archival context, not the entry point; some contain commands for other analyses and require the original folder layout. Run only the adapted entry point above for these two panels.
-
-The original collected GenBank file is byte-identical to `results/10_pharokka/Gv142-2_P1/Gv142-2_P1.gbk` in the source project. The reference figures are the original standalone PNG/PDF exports, before manuscript layout editing. Files under `generated/` are local verification results and are ignored by Git.
 
 ## Panel E interpretation and reanalysis
 
@@ -40,15 +37,13 @@ For an optional fresh alignment and tree analysis, install MAFFT, trimAl and IQ-
 bash scripts/reinfer_tree.sh
 ```
 
-This workflow writes separate results in `generated/reinferred_tree/`. It uses the original alignment/trimming options and recorded IQ-TREE seed, with one thread for portability. Original MAFFT/trimAl versions were not established from the supplied files. This optional workflow has not been run during package preparation; an identical inferred tree or support values are not guaranteed across versions and thread settings. The archived final tree remains the source for the manuscript plot. To rerun IQ-TREE alone with the exact archived trimmed alignment, use that FASTA as `-s`, the recorded model-search/support options, and a separate output prefix.
-
 ## Panel F interpretation
 
-The genome is 37,522 bp with GC 43.6597196311% and 71 CDS features. CDS colors are derived from product-name keyword rules in the original script, not directly from a PHROG category field. The exported CDS table records both the product and its final plotting category. Only the first integrase encountered receives the integrase text label, as in the original script.
+The genome is 37,522 bp with GC 43.6597196311% and 71 CDS features. 
 
 GC tracks use 500-bp windows, 100-bp steps, truncated terminal windows and omission of windows shorter than 50 bp: 375 windows in total. The gray track, labelled “GC content” in the original figure, actually plots window GC fraction minus genome GC fraction. GC skew is `(G-C)/(G+C)`, with zero when the denominator is zero. These windows do not wrap across the sequence end.
 
-The GenBank record declares a **linear** sequence. The circular drawing is a visualization layout and does not demonstrate a biologically circular molecule. The screenshot uses “Gp142-2_P1”; the source data and original exports use “Gv142-2_P1”. Resolve this display-name inconsistency in the final manuscript without silently renaming sequence identifiers.
+The GenBank record declares a **linear** sequence. The circular drawing is a visualization layout and does not demonstrate a biologically circular molecule.
 
 ## Source tables
 
