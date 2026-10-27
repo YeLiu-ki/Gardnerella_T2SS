@@ -29,7 +29,7 @@ Use `python scripts/export_source_data.py` for data extraction and validation on
 
 There are 19 taxa (5 study prophages, 2 published/reconstructed references and 12 public homologues). The supplied trimmed alignment contains 552 columns. Node labels are SH-aLRT/UFBoot. The plot displays labels only when both values are at least 80. The original tree representation is retained without midpoint or outgroup rooting. Horizontal line lengths in the cladogram represent topology steps, not inferred evolutionary distances. The apparent basal position of a tip in this drawing must not be interpreted as evidence of an evolutionary root.
 
-Original recorded analysis: IQ-TREE 3.1.3; ModelFinder (`-m MFP`) selected Q.PFAM+G4 by BIC; 1,000 ultrafast bootstrap replicates and 1,000 SH-aLRT replicates; seed 886838. The original command used `-T AUTO`. See `provenance/TerL_final.iqtree` and `.log` for details and software references.
+Original recorded analysis: IQ-TREE 3.1.3; ModelFinder (`-m MFP`) selected Q.PFAM+G4 by BIC; 1,000 ultrafast bootstrap replicates and 1,000 SH-aLRT replicates; seed 886838. The original command used `-T AUTO`. 
 
 For an optional fresh alignment and tree analysis, install MAFFT, trimAl and IQ-TREE 3, then run:
 
