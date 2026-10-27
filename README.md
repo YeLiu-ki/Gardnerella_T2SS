@@ -59,12 +59,4 @@ The GenBank record declares a **linear** sequence. The circular drawing is a vis
 * `Figure_F_GC_tracks.tsv`: window bounds (0-based, end-exclusive), midpoint, G/C counts, GC fraction, genome GC, GC deviation and skew. Fractions are on a 0–1 scale.
 * `Figure_F_genome.tsv` and `Figure_F_sequence_chunks.tsv`: metadata and ordered nucleotide sequence chunks with 1-based inclusive coordinates.
 
-## Scope of reproduction
 
-The package reproduces the biological content of the standalone plots. Manuscript-specific text placement, label leaders, figure letters, line styling, legend placement and the Gp/Gv display-name edit are not reconstructed. The adapted E script replaces Arial with bundled DejaVu Sans to avoid a proprietary-font dependency. Other E changes are input/output paths. F changes are input/output paths and restriction to the one genome shown. Original scripts remain available for comparison.
-
-## Publication and citation
-
-Before public release, supply the real authors, manuscript title, repository URL, release identifier and author-approved licenses. No authorship, DOI, repository URL or reuse license is invented in this package. Third-party reference sequences remain subject to their source terms. See `docs/publication_notes_zh.md` for the remaining publication metadata and English availability-statement templates. A GitHub release archived in Zenodo provides a fixed, citable DOI; cite the specific archived version used in the paper.
-
-Public accession IDs are retained in the sequence labels. Accession IDs for the newly identified prophage nucleotide sequences, the reconstruction coordinates/source for pGamma, and a complete extraction provenance for every TerL sequence are not established by this figure-only package. Add these from the study records before describing the entire study as independently reproducible. Raw reads, full database installations, unrelated BLAST outputs and other figure analyses are outside this package.
