@@ -2,6 +2,9 @@
 
 This package contains the minimum direct inputs and derived plotting tables for the TerL cladogram (panel E) and the Gv142-2_P1 genome map (panel F). It also preserves the available inputs for rerunning the TerL analysis. 
 
+The code/ and data/T2SS_cohort/ directories contain the R scripts and input data required to reproduce the G. piotii and G. vaginalis T2SS abundance boxplots and the filtered Gardnerella relative-abundance figure, with the corresponding outputs provided in data/output/.
+
+
 ## Reproduce the figures
 
 Tested with Python 3.9.6 on macOS ARM64. Install into an isolated environment:
