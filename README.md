@@ -35,6 +35,14 @@ The command validates the supplied data, exports tab-separated source-data table
 
 Use `python scripts/export_source_data.py` for data extraction and validation only. 
 
+From the repository root, run:
+
+```bash
+Rscript code/run.R
+```
+The reproduced figures and associated summary files are written to
+data/output/.
+
 ## Data and provenance
 
 | Panel | Direct plotting input | Preserved upstream inputs |
