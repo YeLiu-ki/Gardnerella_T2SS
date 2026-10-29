@@ -17,8 +17,13 @@ script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
 if (length(script_arg) != 1) stop("Run this file with Rscript.")
 script_dir <- dirname(normalizePath(sub("^--file=", "", script_arg)))
 project_dir <- normalizePath(file.path(script_dir, ".."))
-input_file <- file.path(project_dir, "data/T2SS_cohort", "02_filtered_samples_Gv.csv")
-output_dir <- file.path(project_dir, "data/output")
+input_file <- file.path(
+  project_dir,
+  "data",
+  "T2SS_cohort",
+  "02_filtered_samples_Gp.csv"
+)
+output_dir <- file.path(project_dir, "data", "output")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 dat <- read_csv(input_file, show_col_types = FALSE) %>%
