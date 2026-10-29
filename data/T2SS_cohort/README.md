@@ -1,15 +1,14 @@
-# Reproducible code and data for T2SS cohort figures
+```markdown
+# Reproducible data for the T2SS cohort figures
+
+This directory contains the input data used to reproduce:
+
 1. `T2SS_abundance_boxplot_Gp.pdf`
 2. `T2SS_abundance_boxplot_Gv.pdf`
 3. `gardnerella_abundance_filtered.pdf`
 
-## Reproduce all figures
+The corresponding R scripts are located in `../../code/`, and the reproduced outputs are written to `../output/`.
 
-From any working directory, run:
-
-```bash
-Rscript /path/to/github_load/run_all.R
-```
 
 ## Data notes
 
