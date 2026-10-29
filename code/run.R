@@ -1,5 +1,15 @@
 #!/usr/bin/env Rscript
 
+script_arg <- grep(
+  "^--file=",
+  commandArgs(trailingOnly = FALSE),
+  value = TRUE
+)
+
+if (length(script_arg) != 1) {
+  stop("Run this file with Rscript.")
+}
+
 script_dir <- dirname(normalizePath(sub("^--file=", "", script_arg)))
 project_dir <- normalizePath(file.path(script_dir, ".."))
 
