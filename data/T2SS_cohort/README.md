@@ -1,4 +1,3 @@
-```markdown
 # Reproducible data for the T2SS cohort figures
 
 This directory contains the input data used to reproduce:
