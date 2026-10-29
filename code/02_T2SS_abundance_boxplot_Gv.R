@@ -21,7 +21,7 @@ input_file <- file.path(
   project_dir,
   "data",
   "T2SS_cohort",
-  "02_filtered_samples_Gp.csv"
+  "02_filtered_samples_Gv.csv"
 )
 output_dir <- file.path(project_dir, "data", "output")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
